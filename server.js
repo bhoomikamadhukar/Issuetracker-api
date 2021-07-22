@@ -14,7 +14,7 @@ app.use('/auth', auth.routes);
 installHandler(app);
 
 const port = process.env.PORT || 3000;
-mongodb+srv://root:root@cluster0.gc6dx.mongodb.net/issuetracker?retryWrites=true&w=majority
+
 
 (async function start() {
   try {
